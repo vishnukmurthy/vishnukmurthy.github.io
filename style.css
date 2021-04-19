@@ -109,14 +109,14 @@ li a:hover {
 .contentText a{
   color: #203650;
   margin-right: 6%;
-  padding-right: 5%;
+  padding-right: 5%
 }
 
 .intro .content .picture{
   display: table-cell;
   vertical-align: middle;
   float:right;
-  height: 1em;
+  width: 100%;
 
   /* margin-right: 20px; */
   /*border-radius: 50%;
