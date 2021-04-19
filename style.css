@@ -108,13 +108,16 @@ li a:hover {
 
 .contentText a{
   color: #203650;
+  margin-right: 6%;
+  padding-right: 5%;
 }
 
 .intro .content .picture{
   display: table-cell;
   vertical-align: middle;
   float:right;
-  width: 67%;
+  height: 1em;
+
   /* margin-right: 20px; */
   /*border-radius: 50%;
   margin-top: 20px; */
