@@ -3,15 +3,17 @@
     <head>
         <title>Vishnu K Murthy</title>
         <link rel = "stylesheet" type = "text/css" href = "./style.css"/>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
+
     <body>
-      <ul class = "topnav">
-        <li><a href="../index.html">About</a></li>
-        <li><a href="#">GitHub</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="../blog.html">Blog</a></li>
-        <li><a href="../rightnow.html">Right Now</a></li>
-      </ul>
+      <script>
+      $(document).ready(function(){
+        $("#nav-placeholder").load("./navbar.html");
+      });
+      </script>
+      <div id="nav-placeholder">
+      </div>
 
       <div class = "rightNowBody ">
         <div class = "rightNowHeader">
