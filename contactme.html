@@ -11,25 +11,34 @@
       $(document).ready(function(){
         $("#nav-placeholder").load("./navbar.html");
       });
+
+      function buttonFunction(){
+        alert("Thank you for your submission!");
+        location.reload();
+      }
       </script>
       <div id="nav-placeholder">
       </div>
 
       <div class="container">
-      <form>
+      <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc6naHjanZ_S1CTY_p2WVeRABTtSEgm74asPNA8ugxe8Mt8_Q/formResponse" target="my_iframe" method="POST" id="mG61Hd" jsmodel="TOfxwf Q91hve" data-response="%.@.[]]" data-first-entry="0" data-last-entry="3" data-is-first-page="true">
           <label for="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="Your name..">
+          <input type="text" id="name" name="entry.325738053" placeholder="Your name..">
 
           <label for="lname">Email (Only I Will See This)</label>
-          <input type="text" id="email" name="emailaddr" placeholder="Your email..">
+          <input type="email" name="entry.1358705774" placeholder="Your email..">
 
           <label for="message">Message</label>
-          <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+          <textarea id="message" name="entry.1962685979" placeholder="Write something.." style="height:200px"></textarea>
 
-          <input type="submit" value="Submit">
+          <div>
+              <button type="submit" id="submit-form" onclick="buttonFunction()">Submit</button>
+          </div>
 
         </form>
+        <iframe name="my_iframe" style="position: absolute;width:0;height:0;border:0;"></iframe>
       </div>
+
 
     </body>
 </html>
